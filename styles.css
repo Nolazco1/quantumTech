@@ -1,0 +1,256 @@
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.nav-container {
+    padding: 3% 15% 1%;
+}
+
+
+/* Title Sections */
+
+#title {
+    background-color: #334756;
+    color: #F0A500;
+}
+
+.container-fluid {
+    padding: 3% 15% 5%;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+.typing-heading {
+    font-size: 3.5rem;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.title-image {
+    width: 35%;
+    border-radius: 50px;
+    box-shadow: 5px 4px 7px 3px #082032;
+    position: absolute;
+    right: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #F0A500;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 15%;
+}
+
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.fa-icon {
+    color: #082032;
+    margin-bottom: 1rem;
+}
+
+
+/* Update Info */
+
+.update-info {
+    font-size: 3.1rem;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.5;
+    color: #334756;
+    text-align: center;
+    padding: 3% 15% 0;
+}
+
+
+/* Contact Form */
+
+#myform {
+    border-radius: 50px;
+    box-shadow: 5px 4px 7px 3px #082032;
+    text-align: center;
+    color: #fff;
+    background-color: #334756;
+    margin: 5% 15%;
+    padding: 2% 0;
+}
+
+
+/* About Section */
+
+#about {
+    color: #082032;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 3.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    margin-top: 1%;
+}
+
+.about-info {
+    margin: 2% 13% 5%;
+    font-size: 1.5em;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+#about-images {
+    padding-bottom: 5%;
+}
+
+.images {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+/* Services Section */
+
+#services {
+    color: #082032;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 3.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    margin: 1% 0 2%;
+}
+
+.service-list {
+    list-style-type: none;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.s-title {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.service-images {
+    border-radius: 30px;
+    margin: 2%;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+    text-align: center;
+    margin: 3% 15%;
+    padding: 2% 0 1%;
+    border-radius: 30px;
+    box-shadow: 5px 4px 7px 3px #082032;
+    background-color: #334756;
+}
+
+.test-title {
+    color: #082032;
+    font-size: 3em;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#slide-image {
+    border-radius: 180px;
+    box-shadow: 5px 5px 5px #2e2e2e;
+}
+
+.review {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin: 2% 0 2%;
+}
+
+#clients {
+    color: #fff;
+    font-size: 2em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #334756;
+    text-align: center;
+    padding: 2% 7%;
+}
+
+.copyright {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.media-icons {
+    color: #082032;
+    padding: 3% 10px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+    #slide-image {
+        width: 70%;
+    }
+}
