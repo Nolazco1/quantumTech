@@ -16,7 +16,7 @@ This project was built with the following tools.
 
 ## Contact
 
-Jesus Nolazco - [ZeusNolazco](https://twitter.com/zeusnolazco)
+Jesus Nolazco - [Twitter](https://twitter.com/zeusnolazco)
 
 Deployment Link - [QuantumTech]()
 
